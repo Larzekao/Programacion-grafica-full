@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "4KYkQPHTkGa1WuCV7dkGP/x1V1CS3MMzdz35xWJJmBg4RPxd4U6fHK0D9HqVy212GRnWpYtA42yIWpgjmFrAzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\Universidad\\6 Semestre\\programacion grafica\\practicas\\progrmacoipn-tareas-graficas-main\\ConsoleApp3\\ConsoleApp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\opentk\\3.1.0\\opentk.3.1.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.drawing.common\\8.0.8\\system.drawing.common.8.0.8.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"OpenTK 3.1.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
