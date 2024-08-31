@@ -1,15 +1,12 @@
-﻿using System;
+﻿using ConsoleApp3;
 
-namespace ConsoleApp3
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        using (UnCGraficas game = new UnCGraficas())
         {
-            using (UnCGraficas game = new UnCGraficas())
-            {
-                game.Run(60.0); // Opcional: Ejecuta el juego a 60 FPS
-            }
+            game.Run(30.0); // Ejecuta el juego a 60 FPS
         }
     }
 }
